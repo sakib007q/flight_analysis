@@ -1,0 +1,62 @@
+id
+A unique identifier for each flight record in the dataset.
+
+year
+The year in which the flight took place (2013 in this dataset).
+
+month
+The month in which the flight took place (1 to 12).
+
+day
+The day of the month on which the flight took place (1 to 31).
+
+dep_time
+The actual local departure time of the flight, in 24-hour format (hhmm).
+
+sched_dep_time
+The scheduled local departure time of the flight, in 24-hour format (hhmm).
+
+dep_delay
+The difference between the actual and scheduled departure times of the flight, in minutes. A positive value indicates a delayed departure, while a negative value indicates an early departure
+
+arr_time
+The actual local arrival time of the flight, in 24-hour format (hhmm).
+
+sched_arr_time
+The scheduled local arrival time of the flight, in 24-hour format (hhmm).
+
+arr_delay
+The difference between the actual and scheduled arrival times of the flight, in minutes. A positive value indicates a delayed arrival, while a negative value indicates an early arrival.
+
+carrier
+The two-letter code of the airline carrier for the flight.
+
+flight
+The flight number of the flight.
+
+tailnum
+The unique identifier of the aircraft used for the flight.
+
+origin
+The three-letter code of the airport of origin for the flight.
+
+dest
+The three-letter code of the destination airport for the flight.
+
+air_time
+The duration of the flight, in minutes.
+
+distance
+The distance between the origin and destination airports, in miles.
+
+hour
+The hour component of the scheduled departure time, in local time
+
+minute
+The minute component of the scheduled departure time, in local time.
+
+time_hour
+The scheduled departure time of the flight, in local time and format (yyyy-mm-dd hh:mm:ss).
+
+name
+The name of the airline carrier for the flight.
